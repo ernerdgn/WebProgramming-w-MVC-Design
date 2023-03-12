@@ -1,0 +1,15 @@
+﻿@model MVC_Project_1.Models.MessageModel
+
+<div style="color: crimson;font-size:28pt">
+    @Model.MessageId
+</div>
+
+@* @ means razor, whenever you see @ in front of a line, that means the line runs a C# code *@
+
+<div style="color: crimson;font-size:32pt">
+    @Model.Message
+</div>
+
+<div style="font-size:14pt">
+    <a href="/Home/About">About</a>
+</div>
